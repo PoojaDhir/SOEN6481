@@ -1,0 +1,27 @@
+\documentclass[12pt]{article}
+\usepackage[left=12mm,top=0.2in,bottom=25mm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\begin{document}
+\title{Domain Model}
+\date{\vspace{-5ex}}
+\maketitle
+
+\includegraphics[width=18cm,height=18cm]{Domain.png}\\\\
+
+This domain model represents the basic function of calculator.\\
+PowerButton - This class is used for switching on and off the calculator.\\
+Input View - This class is used to take the input from the user, on which user wants to perform operations.\\
+\\\\\\
+Select Operand View - This class is super class which contains the operands on which calculation will be performed.\\
+Arithmetic Operation - This class is child class of Select Operand View class, which contains all arithmetic operations such as addition, subtraction, multiplication, division.\\
+Trignometric Operation - This class is child class of Select Operand View class, which contains all trignometric operations such as sin, cos, tan.\\
+Special Constants - This class is child class of Select Operand View class, which contains all special constants such as silver ratio, pi, golden ratio, gelfond's constant .\\
+Clear Button - This class is used to clear the display screen.\\
+Result - This class is used to display the result after calculation. There is composition between select operand view and result class because if no operand will be selected than there will be no result.\\
+
+
+
+\end{document}
+
