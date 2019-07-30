@@ -1,0 +1,242 @@
+\documentclass[12pt]{article}
+\usepackage[left=12mm,top=0.2in,bottom=12mm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{csvsimple}
+
+\begin{document}
+\title{User Stories}
+\date{\vspace{-5ex}}
+\maketitle
+
+\begin{table}[h]
+    \begin{tabular}{|c|p{14cm}|}
+    \hline
+      Identifier   & US1 \\
+      \hline
+       US Statement  & The Calculator should contain arithmetic symbols like addition(+), subtraction(-), multiplication(*), and division(/). \\
+       \hline
+       Constraints & There are only symbols on the view for usage.\\
+       \hline
+       Acceptance Criteria & User should able to view the arithmetic symbols on calculator.\\
+       \hline
+       Priority & Low\\
+       \hline
+       Estimate & 1\\
+       \hline
+    \end{tabular}
+    \caption{User Story 1}
+\label{table:1}
+ \end{table}
+ 
+ \begin{table}[h]
+    \begin{tabular}{|c|p{14cm}|}
+    \hline
+      Identifier   & US2 \\
+      \hline
+       US Statement  & The Calculator should contain trigonometric symbols like sin,cos, and tan.  \\
+       \hline
+       Constraints & No need to add cosec, sec, and cot symbols for display as they can be calculated by reciprocal of sin, cos, and tan.\\
+       \hline
+       Acceptance Criteria & User should able to view the trigonometric symbols on calculator. \\
+       \hline
+       Priority & Low\\
+       \hline
+       Estimate & 1\\
+       \hline
+    \end{tabular}
+    \caption{User Story 2}
+\label{table:2}
+\end{table}
+
+\begin{table}[h]
+    \begin{tabular}{|c|p{14cm}|}
+    \hline
+      Identifier   & US3 \\
+      \hline
+       US Statement  & The Calculator should contain a constant silver ratio($\delta_s$).  \\
+       \hline
+       Constraints & Should display only symbol. \\
+       \hline
+       Acceptance Criteria & User should able to view the silver ratio symbol on calculator. \\
+       \hline
+       Priority & Low\\
+       \hline
+       Estimate & 1\\
+       \hline
+    \end{tabular}
+    \caption{User Story 3}
+\label{table:3}
+\end{table}
+
+\begin{table}[h]
+    \begin{tabular}{|c|p{14cm}|}
+    \hline
+      Identifier   & US4 \\
+      \hline
+       US Statement  & To calculate the arithmetic expression entered by user. \\
+       \hline
+       Constraints & User cannot extend expression by 8 digits.\\
+       \hline
+       Acceptance Criteria & User can be able to perform arithmetic operations by clicking the given arithmetic symbols. \\
+       \hline
+       Priority & Medium\\
+       \hline
+       Estimate & 2\\
+       \hline
+    \end{tabular}
+    \caption{User Story 4}
+\label{table:4}
+\end{table}
+
+\begin{table}[h]
+    \begin{tabular}{|c|p{14cm}|}
+    \hline
+      Identifier   & US5 \\
+      \hline
+       US Statement  & To calculate the trigonometric expression entered by user. \\
+       \hline
+       Constraints & User cannot extend expression by 8 digits.\\
+       \hline
+       Acceptance Criteria & User can be able to perform trigonometric operations by clicking the given trigonometric symbols. \\
+       \hline
+       Priority & Medium\\
+       \hline
+       Estimate & 2\\
+       \hline
+    \end{tabular}
+    \caption{User Story 5}
+\label{table:5}
+\end{table}
+
+\begin{table}[h]
+    \begin{tabular}{|c|p{14cm}|}
+    \hline
+      Identifier   & US6 \\
+      \hline
+       US Statement  & To calculate constant silver ratio($\delta_s$).  \\
+       \hline
+       Constraints & N.A. \\
+       \hline
+       Acceptance Criteria & User can be able to calculate the silver ratio ($\delta_s$=1+$\sqrt{2}$)by clicking the constant $\delta_s$.\\
+       \hline
+       Priority & Medium\\
+       \hline
+       Estimate & 3\\
+       \hline
+    \end{tabular}
+    \caption{User Story 6}
+\label{table:6}
+\end{table}
+
+\begin{table}[h]
+    \begin{tabular}{|c|p{14cm}|}
+    \hline
+      Identifier   & US7 \\
+      \hline
+       US Statement  & To input the number from user on which calculation will be performed. \\
+       \hline
+       Constraints & User cannot input negative number.\\
+       \hline
+       Acceptance Criteria & User can perform arithmetic, trigonometric, and silver constant calculation by using the input number. \\
+       \hline
+       Priority & Medium\\
+       \hline
+       Estimate & 3\\
+       \hline
+    \end{tabular}
+    \caption{User Story 7}
+\label{table:7}
+\end{table}
+
+\begin{table}[h]
+    \begin{tabular}{|c|p{14cm}|}
+    \hline
+      Identifier   & US8 \\
+      \hline
+       US Statement  & Calculator should contain display screen. \\
+       \hline
+       Constraints & Display screen should be of size 16*9.\\
+       \hline
+       Acceptance Criteria & User should be able to view the whole work on this display screen. \\
+       \hline
+       Priority & Medium\\
+       \hline
+       Estimate & 3\\
+       \hline
+    \end{tabular}
+    \caption{User Story 8}
+\label{table:8}
+\end{table}
+
+
+
+\begin{table}[h]
+    \begin{tabular}{|c|p{14cm}|}
+    \hline
+      Identifier   & US9 \\
+      \hline
+       US Statement  & The Calculator should contain a clear button.  \\
+       \hline
+       Constraints & N.A.\\
+       \hline
+       Acceptance Criteria & User should be able to clear the screen by clicking the clear button.\\
+       \hline
+       Priority & Medium\\
+       \hline
+       Estimate & 3\\
+       \hline
+    \end{tabular}
+    \caption{User Story 9}
+\label{table:9}
+\end{table}
+
+\begin{table}[h]
+    \begin{tabular}{|c|p{14cm}|}
+    \hline
+      Identifier   & US10 \\
+      \hline
+       US Statement  & The Calculator should contain equals to(=) symbol to start calculation. \\
+       \hline
+       Constraints & N.A. \\
+       \hline
+       Acceptance Criteria & User can start calculation by clicking the equals to(=) button.\\
+       \hline
+       Priority & Medium\\
+       \hline
+       Estimate & 3\\
+       \hline
+    \end{tabular}
+    \caption{User Story 10}
+\label{table:10}
+\end{table}
+
+\begin{table}[h]
+    \begin{tabular}{|c|p{14cm}|}
+    \hline
+      Identifier   & US12 \\
+      \hline
+      US Statement  & User wants to built a buddhist temple of 4 floor using silver ratio.  \\
+       \hline
+       Constraints & N.A.\\
+       \hline
+      Acceptance Criteria & Silver ratio derives a smaller proportion(1.414). Relation between first roof and fourth roof should be 1.414. \\
+       \hline
+       Priority & High\\
+       \hline
+       Estimate & 5\\
+       \hline
+    \end{tabular}
+    \caption{User Story 12}
+\label{table:12}
+\end{table}
+
+\end{document}
+
+
+
+ 
+ 
+ 
